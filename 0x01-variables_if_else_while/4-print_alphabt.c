@@ -13,10 +13,8 @@ int main(void)
 {
 	char x = 'a';
 
-	while (x <= 'z')
+	while (x <= 'd' || x > 'e' && x <= 'p' || x > 'q' && x <= 'z')
 	{
-		if (x == 'q' || x == 'e')
-			continue;
 		putchar(x);
 		x++;
 	}
