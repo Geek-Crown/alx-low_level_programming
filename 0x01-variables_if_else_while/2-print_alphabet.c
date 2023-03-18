@@ -10,8 +10,13 @@
  * Return: it returns the value 0
  */
 int main(void)
-{	
-	for(int x = 'a'; x <= 'z'; x++)
+{
+	char x = 'a';
+
+	while (x <= 'z')
+	{
 		putchar(x);
+		x++;
+	}
 	return (0);
 }
