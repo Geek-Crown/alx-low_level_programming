@@ -13,10 +13,13 @@ int main(void)
 {
 	char x = 'a';
 
-	while (x <= 'd' || ((x > 'e') && (x <= 'p')) || ((x > 'q') && (x <= 'z')))
+	while (x <= 'z')
 	{
-		putchar(x);
-		x++;
+		if ((x != 'e') && (x != 'q'))
+		{
+			putchar(x);
+			x++;
+		}
 	}
-		return (0);
+	return (0);
 }
