@@ -1,2 +1,2 @@
 #!/bin/bash
-$CFILE='file.s'
+gcc -S $CFILE
