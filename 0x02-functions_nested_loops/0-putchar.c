@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
+#include <main.h>
+
 /**
  * program prints putchar using _putchar function
  *
