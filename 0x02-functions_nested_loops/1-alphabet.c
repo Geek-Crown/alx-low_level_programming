@@ -1,19 +1,15 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - prints alphabets in lower case
  *
- * Return: Always 0.
+ * Return: Doesn't return. Void return typr
  */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
 void print_alphabet(void)
 {
 	char alpha = 'a';
+
 	while (alpha <= 'z')
 		_putchar(alpha);
 	_putchar('\n');
