@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "main.h"
+#include "main.hi"
 
 /**
  * program prints putchar using _putchar function
@@ -9,15 +9,8 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int _putchar(char c);
-
 int main(void)
 {
 	_putchar();
 	return (0);
-}
-
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
