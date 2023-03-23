@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _alpha - outputs true if c is either lower case or uppercase and false if otherwise
+ * _isalpha - outputs true if c is a letter and false if otherwise
  * @c: single letter input
  * Return: Return 0
  */
