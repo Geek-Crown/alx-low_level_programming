@@ -2,7 +2,7 @@
 
 /**
  * _islower - outputs true if c is lower case and false if otherwise
- *
+ * @c: single letter input
  * Return: Return 0
  */
 
