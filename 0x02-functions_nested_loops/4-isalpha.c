@@ -2,7 +2,7 @@
 
 /**
  * _alpha - outputs true if c is either lower case or uppercase and false if otherwise
- *
+ * @c: single letter input
  * Return: Return 0
  */
 
