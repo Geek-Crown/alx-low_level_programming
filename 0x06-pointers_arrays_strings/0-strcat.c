@@ -11,8 +11,8 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *strcat;
+	char *str;
 
-	*strcat = strcat(dest, src);
-	return (strcat);
+	str = strcat(dest, src);
+	return (str);
 }
