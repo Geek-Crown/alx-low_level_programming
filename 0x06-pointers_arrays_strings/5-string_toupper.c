@@ -1,9 +1,10 @@
 #include "main.h"
 #include <string.h>
+#include <ctype.h>
 
 /**
  * string_toupper - all strings in uppercase
- * @'': the string
+ * @*: the string
  *
  * Return: string
  */
