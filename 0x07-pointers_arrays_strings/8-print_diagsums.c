@@ -18,8 +18,8 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		lsum = (lsum) + ((a + i)[j]);
-		rsum = (rsum) + ((a + j)[i]);
+		lsum += a[i][i];
+		rsum += a[j][i];
 		j--;
 	}
 	printf("%d, %d", lsum, rsum);
