@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums - prints the sum of the two diagonals of a
@@ -21,7 +22,5 @@ void print_diagsums(int *a, int size)
 		rsum = (rsum) + ((a + j)[i]);
 		j--;
 	}
-	_putchar(lsum);
-	_putchar(', ');
-	_putchar(rsum);
+	printf("%d, %d", lsum, rsum);
 }
