@@ -24,4 +24,4 @@ void print_diagsums(int *a, int size)
 	_putchar(lsum);
 	_putchar(", ");
 	_putchar(rsum);
-}	
+}
