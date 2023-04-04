@@ -17,11 +17,11 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		lsum += a[i][i];
-		rsum += a[j][i];
+		lsum += a[i];
+		rsum += a[j];
 		j--;
 	}
 	_putchar(lsum);
-	_putchar(", ");
+	_putchar(', ');
 	_putchar(rsum);
 }
